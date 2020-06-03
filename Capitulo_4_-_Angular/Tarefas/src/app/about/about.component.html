@@ -1,0 +1,17 @@
+<div class="container color-dark">
+    <div class="col">
+        <p> Isso fala sobre mim.</p>
+    </div>
+</div>
+<div class="container color-light">
+    <div class="col">
+        <p class="life-container" *ngFor= "let objetivo of objetivos">
+            {{objetivo}}
+        </p>
+    </div>
+</div>
+<div class="container color-light align_right">
+    <div class="col">
+        <p><a href="" (click)="sendMeHome()"><strong>Voltar</strong></a></p>
+    </div>
+</div>
